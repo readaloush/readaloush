@@ -1,6 +1,8 @@
 ## Hi — I'm Read
 
-Embedded software engineer in Konya, Turkey. I build firmware and hardware for a commercial fire-safety product at İmax Elektronik — sensor to PCB to cloud to mobile — and work on applied computer vision alongside it.
+AI and embedded software engineer in Konya, Turkey. I train computer-vision and deep-learning models, get them running on edge hardware, and build the firmware, PCB, wireless and cloud around them.
+
+Day job: firmware and hardware for a commercial fire-safety product at İmax Elektronik.
 
 Site → [readaloush.com](https://readaloush.com)
 
@@ -8,20 +10,24 @@ Site → [readaloush.com](https://readaloush.com)
 
 | Project | What it is | Code |
 | --- | --- | --- |
-| **Smoke detector platform** | STM32 + FreeRTOS firmware, point-to-point LoRa between detectors and an in-house gateway, fuzzy-logic false-alarm filtering, AWS IoT Core backend, Flutter app | closed source |
-| **Brain tumor MRI classification** | CNN and MobileNetV2 fine-tuning on clinical MRI scans across four tumor classes | [repo](https://github.com/readaloush/brain-tumor-classification-cnn) |
-| **Automated waste sorting** | CNN on Raspberry Pi sorting five material streams, ROS2 bridge to conveyor control | not public |
+| **Brain tumor MRI classification** | CNN and MobileNetV2 transfer learning on clinical MRI scans across four tumor classes | [repo](https://github.com/readaloush/brain-tumor-classification-cnn) |
+| **Automated waste sorting** | CNN on Raspberry Pi sorting five material streams in real time, ROS2 bridge to conveyor control | not public |
+| **Smoke detector platform** | STM32 + FreeRTOS firmware, point-to-point LoRa, fuzzy-logic false-alarm filtering, AWS IoT Core backend, Flutter app, CV model for board serial-number recognition | closed source |
 | **Foldable-wing UAV** | Multi-sensor air-quality payload, ML on telemetry to predict pollution patterns. Funded under TÜBİTAK 2209-A | not public |
 
 ### Currently into
 
-- Embedded AI — getting vision models small enough to run on the edge
+- Edge AI — shrinking vision models until they run on microcontroller-class hardware
+- Medical imaging — classification and segmentation on small clinical datasets
 - LoRa and low-power wireless for sensor networks
-- The unglamorous half of firmware: timing, power budgets, field reliability
 
 ### Stack
 
-C · C++ · Python · Dart · STM32 · FreeRTOS · ESP32 · LoRa · PyTorch · TensorFlow · OpenCV · ROS2 · Flutter · AWS IoT Core · Proteus
+**AI / computer vision** — PyTorch · TensorFlow · Keras · OpenCV · CNNs · transfer learning · image classification · segmentation · data augmentation · edge deployment
+
+**Embedded** — C · C++ · STM32 · FreeRTOS · ESP32 · Raspberry Pi · UART / I2C / SPI · LoRa · Proteus
+
+**Also** — Python · Dart · Flutter · ROS2 · AWS IoT Core · Siemens TIA Portal · Git
 
 ### Reach me
 

@@ -31,4 +31,4 @@ Site → [readaloush.com](https://readaloush.com)
 
 ### Reach me
 
-[readaloush.com](https://readaloush.com) · [LinkedIn](https://linkedin.com/in/readaloush) · readaloush@gmail.com
+[readaloush.com](https://readaloush.com) · [LinkedIn](https://linkedin.com/in/readaloush) · dev@readaloush.com
